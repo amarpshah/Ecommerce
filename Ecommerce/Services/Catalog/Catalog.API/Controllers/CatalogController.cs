@@ -78,6 +78,8 @@ namespace Catalog.API.Controllers
         }
 
 
+
+
         [HttpPost]
         [Route("CreateProduct")]
         [ProducesResponseType(typeof(ProductResponse), (int)(HttpStatusCode.OK))]
