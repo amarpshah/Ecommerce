@@ -1,0 +1,322 @@
+[
+  {
+    "Id": "507f191e81019729b8620001",
+    "Name": "Nike Air Max",
+    "Description": "Classic running shoes for everyday use.",
+    "Summary": "Comfortable and stylish running shoes.",
+    "ProductImageFile": "air_max.jpg",
+    "Brand": {
+      "Id": "507f191e81019729b8600001",
+      "Name": "Nike"
+    },
+    "Types": {
+      "Id": "507f191e81019729b8600011",
+      "Name": "Shoes"
+    },
+    "Price": 119.99
+  },
+  {
+    "Id": "507f191e81019729b8620002",
+    "Name": "Adidas Ultraboost",
+    "Description": "Premium running shoes with superior cushioning.",
+    "Summary": "High-performance running shoes.",
+    "ProductImageFile": "ultraboost.jpg",
+    "Brand": {
+      "Id": "507f191e81019729b8600002",
+      "Name": "Adidas"
+    },
+    "Types": {
+      "Id": "507f191e81019729b8600011",
+      "Name": "Shoes"
+    },
+    "Price": 179.99
+  },
+  {
+    "Id": "507f191e81019729b8620003",
+    "Name": "Puma RS-X",
+    "Description": "Bold sneakers with retro-inspired design.",
+    "Summary": "Trendy and comfortable sneakers.",
+    "ProductImageFile": "rsx.jpg",
+    "Brand": {
+      "Id": "507f191e81019729b8600003",
+      "Name": "Puma"
+    },
+    "Types": {
+      "Id": "507f191e81019729b8600011",
+      "Name": "Shoes"
+    },
+    "Price": 109.99
+  },
+  {
+    "Id": "507f191e81019729b8620004",
+    "Name": "Reebok Classic",
+    "Description": "Iconic sneakers for casual wear.",
+    "Summary": "Timeless and versatile sneakers.",
+    "ProductImageFile": "classic.jpg",
+    "Brand": {
+      "Id": "507f191e81019729b8600004",
+      "Name": "Reebok"
+    },
+    "Types": {
+      "Id": "507f191e81019729b8600011",
+      "Name": "Shoes"
+    },
+    "Price": 89.99
+  },
+  {
+    "Id": "507f191e81019729b8620005",
+    "Name": "Under Armour Tech T-Shirt",
+    "Description": "Moisture-wicking tech shirt for sports.",
+    "Summary": "Lightweight and breathable t-shirt.",
+    "ProductImageFile": "tech_tshirt.jpg",
+    "Brand": {
+      "Id": "507f191e81019729b8600005",
+      "Name": "Under Armour"
+    },
+    "Types": {
+      "Id": "507f191e81019729b8600012",
+      "Name": "T-Shirt"
+    },
+    "Price": 29.99
+  },
+  {
+    "Id": "507f191e81019729b8620006",
+    "Name": "New Balance Shorts",
+    "Description": "Comfortable running shorts for men.",
+    "Summary": "Durable and lightweight shorts.",
+    "ProductImageFile": "shorts.jpg",
+    "Brand": {
+      "Id": "507f191e81019729b8600006",
+      "Name": "New Balance"
+    },
+    "Types": {
+      "Id": "507f191e81019729b8600013",
+      "Name": "Shorts"
+    },
+    "Price": 34.99
+  },
+  {
+    "Id": "507f191e81019729b8620007",
+    "Name": "Skechers Jacket",
+    "Description": "Weather-resistant jacket for outdoor activities.",
+    "Summary": "Warm and stylish jacket.",
+    "ProductImageFile": "jacket.jpg",
+    "Brand": {
+      "Id": "507f191e81019729b8600007",
+      "Name": "Skechers"
+    },
+    "Types": {
+      "Id": "507f191e81019729b8600014",
+      "Name": "Jacket"
+    },
+    "Price": 69.99
+  },
+  {
+    "Id": "507f191e81019729b8620008",
+    "Name": "Converse Cap",
+    "Description": "Casual cap for sunny days.",
+    "Summary": "Classic and comfortable cap.",
+    "ProductImageFile": "cap.jpg",
+    "Brand": {
+      "Id": "507f191e81019729b8600008",
+      "Name": "Converse"
+    },
+    "Types": {
+      "Id": "507f191e81019729b8600015",
+      "Name": "Cap"
+    },
+    "Price": 24.99
+  },
+  {
+    "Id": "507f191e81019729b8620009",
+    "Name": "Vans Socks",
+    "Description": "Comfortable ankle socks for daily wear.",
+    "Summary": "Soft and durable socks.",
+    "ProductImageFile": "socks.jpg",
+    "Brand": {
+      "Id": "507f191e81019729b8600009",
+      "Name": "Vans"
+    },
+    "Types": {
+      "Id": "507f191e81019729b8600016",
+      "Name": "Socks"
+    },
+    "Price": 12.99
+  },
+  {
+    "Id": "507f191e81019729b862000a",
+    "Name": "Columbia Track Pants",
+    "Description": "Warm track pants for cold weather.",
+    "Summary": "Cozy and flexible track pants.",
+    "ProductImageFile": "track_pants.jpg",
+    "Brand": {
+      "Id": "507f191e81019729b860000a",
+      "Name": "Columbia"
+    },
+    "Types": {
+      "Id": "507f191e81019729b8600017",
+      "Name": "Track Pants"
+    },
+    "Price": 49.99
+  },
+  {
+    "Id": "507f191e81019729b862000b",
+    "Name": "Nike Sports Bra",
+    "Description": "Supportive sports bra for active women.",
+    "Summary": "Comfortable and secure sports bra.",
+    "ProductImageFile": "sports_bra.jpg",
+    "Brand": {
+      "Id": "507f191e81019729b8600001",
+      "Name": "Nike"
+    },
+    "Types": {
+      "Id": "507f191e81019729b8600018",
+      "Name": "Sports Bra"
+    },
+    "Price": 39.99
+  },
+  {
+    "Id": "507f191e81019729b862000c",
+    "Name": "Adidas Gloves",
+    "Description": "Training gloves for gym workouts.",
+    "Summary": "Protective and comfortable gloves.",
+    "ProductImageFile": "gloves.jpg",
+    "Brand": {
+      "Id": "507f191e81019729b8600002",
+      "Name": "Adidas"
+    },
+    "Types": {
+      "Id": "507f191e81019729b8600019",
+      "Name": "Gloves"
+    },
+    "Price": 19.99
+  },
+  {
+    "Id": "507f191e81019729b862000d",
+    "Name": "Puma Water Bottle",
+    "Description": "Reusable water bottle for sports.",
+    "Summary": "Durable and leak-proof bottle.",
+    "ProductImageFile": "water_bottle.jpg",
+    "Brand": {
+      "Id": "507f191e81019729b8600003",
+      "Name": "Puma"
+    },
+    "Types": {
+      "Id": "507f191e81019729b860001a",
+      "Name": "Water Bottle"
+    },
+    "Price": 14.99
+  },
+  {
+    "Id": "507f191e81019729b862000e",
+    "Name": "Reebok T-Shirt",
+    "Description": "Breathable t-shirt for workouts.",
+    "Summary": "Lightweight and quick-dry t-shirt.",
+    "ProductImageFile": "tshirt_reebok.jpg",
+    "Brand": {
+      "Id": "507f191e81019729b8600004",
+      "Name": "Reebok"
+    },
+    "Types": {
+      "Id": "507f191e81019729b8600012",
+      "Name": "T-Shirt"
+    },
+    "Price": 27.99
+  },
+  {
+    "Id": "507f191e81019729b862000f",
+    "Name": "Under Armour Shorts",
+    "Description": "Performance shorts for running.",
+    "Summary": "Lightweight and moisture-wicking shorts.",
+    "ProductImageFile": "shorts_ua.jpg",
+    "Brand": {
+      "Id": "507f191e81019729b8600005",
+      "Name": "Under Armour"
+    },
+    "Types": {
+      "Id": "507f191e81019729b8600013",
+      "Name": "Shorts"
+    },
+    "Price": 39.99
+  },
+  {
+    "Id": "507f191e81019729b8620010",
+    "Name": "New Balance Jacket",
+    "Description": "Windproof jacket for outdoor sports.",
+    "Summary": "Protective and stylish jacket.",
+    "ProductImageFile": "jacket_nb.jpg",
+    "Brand": {
+      "Id": "507f191e81019729b8600006",
+      "Name": "New Balance"
+    },
+    "Types": {
+      "Id": "507f191e81019729b8600014",
+      "Name": "Jacket"
+    },
+    "Price": 79.99
+  },
+  {
+    "Id": "507f191e81019729b8620011",
+    "Name": "Skechers Cap",
+    "Description": "Casual cap for sun protection.",
+    "Summary": "Lightweight and adjustable cap.",
+    "ProductImageFile": "cap_skechers.jpg",
+    "Brand": {
+      "Id": "507f191e81019729b8600007",
+      "Name": "Skechers"
+    },
+    "Types": {
+      "Id": "507f191e81019729b8600015",
+      "Name": "Cap"
+    },
+    "Price": 22.99
+  },
+  {
+    "Id": "507f191e81019729b8620012",
+    "Name": "Converse Socks",
+    "Description": "Cushioned socks for all-day comfort.",
+    "Summary": "Soft and supportive socks.",
+    "ProductImageFile": "socks_converse.jpg",
+    "Brand": {
+      "Id": "507f191e81019729b8600008",
+      "Name": "Converse"
+    },
+    "Types": {
+      "Id": "507f191e81019729b8600016",
+      "Name": "Socks"
+    },
+    "Price": 15.99
+  },
+  {
+    "Id": "507f191e81019729b8620013",
+    "Name": "Vans Track Pants",
+    "Description": "Casual track pants for lounging.",
+    "Summary": "Comfortable and stylish track pants.",
+    "ProductImageFile": "track_pants_vans.jpg",
+    "Brand": {
+      "Id": "507f191e81019729b8600009",
+      "Name": "Vans"
+    },
+    "Types": {
+      "Id": "507f191e81019729b8600017",
+      "Name": "Track Pants"
+    },
+    "Price": 54.99
+  },
+  {
+    "Id": "507f191e81019729b8620014",
+    "Name": "Columbia Sports Bra",
+    "Description": "Supportive sports bra for outdoor activities.",
+    "Summary": "Comfortable and durable sports bra.",
+    "ProductImageFile": "sports_bra_columbia.jpg",
+    "Brand": {
+      "Id": "507f191e81019729b860000a",
+      "Name": "Columbia"
+    },
+    "Types": {
+      "Id": "507f191e81019729b8600018",
+      "Name": "Sports Bra"
+    },
+    "Price": 36.99
+  }
+]
