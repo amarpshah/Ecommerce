@@ -10,6 +10,12 @@ namespace Catalog.Infrastructure.Data
         {
             bool checkTypes = typeCollection.Find(b => true).Any();
             string path = Path.Combine("Data", "SeedData", "ProductType.json");
+
+            if (!Path.Exists(path))
+            {
+                path = Path.GetFullPath("../Catalog.Infrastructure/Data/SeedData/ProductType.json");
+            }
+
             if (!checkTypes)
             {
                 var typesData = File.ReadAllText(path);

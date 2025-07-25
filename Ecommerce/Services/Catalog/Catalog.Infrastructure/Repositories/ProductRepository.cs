@@ -52,13 +52,18 @@ namespace Catalog.Infrastructure.Repositories
             if (catalogSpecParams.BrandId != null)
                 filter &= builder.Eq(p => p.Brand.Id, catalogSpecParams.BrandId);
 
+            if (catalogSpecParams.TypeId != null)
+                filter &= builder.Eq(p => p.Types.Id, catalogSpecParams.TypeId);
+
             int skipCnt = (catalogSpecParams.PageIndex-1 > 0? catalogSpecParams.PageIndex -1 : 0 ) * catalogSpecParams.PageSize;
             var totalItems = await _catalogContext.Products.CountDocumentsAsync(filter);
-            var data = await _catalogContext.Products.Find(filter).Skip(skipCnt).Limit(catalogSpecParams.PageSize).ToListAsync();
+            var data = await _catalogContext.Products.Find(filter)
+                                                    .Skip(skipCnt)
+                                                    .Limit(catalogSpecParams.PageSize)
+                                                    .ToListAsync();
 
 
-            return 
-            //return await _catalogContext.Products.Find(p => true).ToListAsync();
+            return new Pagination<Product> (catalogSpecParams.PageIndex, catalogSpecParams.PageSize, (int) totalItems, data);
         }
 
         public async Task<IEnumerable<Product>> GetProductsByBrand(string name)

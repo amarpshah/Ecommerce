@@ -10,6 +10,12 @@ namespace Catalog.Infrastructure.Data
         { 
             bool checkBrands = brandCollection.Find(b => true).Any();
             string path = Path.Combine("Data", "SeedData", "ProductBrand.json");
+
+            if (!Path.Exists(path))
+            { 
+                path = Path.GetFullPath("../Catalog.Infrastructure/Data/SeedData/ProductBrand.json");
+            }
+
             if (!checkBrands)
             {
                 var brandsData = File.ReadAllText(path);
